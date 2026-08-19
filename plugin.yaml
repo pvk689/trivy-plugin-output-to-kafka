@@ -1,6 +1,6 @@
 name: "kafka"
 version: "1.1.0"
-repository: "https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka"
+repository: "https://github.com/pvk689/trivy-plugin-output-to-kafka"
 usage: Put log json to kafka
 description: Put log json to kafka
 platforms:
@@ -8,19 +8,19 @@ platforms:
       os: linux
       arch: amd64
     bin: ./kafka
-    uri: https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka/releases/download/v1.1.0/trivy_output_plugin_kafka_linux-amd64.tar.gz
+    uri: https://github.com/pvk689/trivy-plugin-output-to-kafka/releases/download/v1.1.0/trivy_output_plugin_kafka_linux-amd64.tar.gz
   - selector:
       os: linux
       arch: arm64
     bin: ./kafka
-    uri: https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka/releases/download/v1.1.0/trivy_output_plugin_kafka_linux-arm64.tar.gz
+    uri: https://github.com/pvk689/trivy-plugin-output-to-kafka/releases/download/v1.1.0/trivy_output_plugin_kafka_linux-arm64.tar.gz
   - selector:
       os: darwin
       arch: amd64
     bin: ./kafka
-    uri: https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka/releases/download/v1.1.0/trivy_output_plugin_kafka_darwin-amd64.tar.gz
+    uri: https://github.com/pvk689/trivy-plugin-output-to-kafka/releases/download/v1.1.0/trivy_output_plugin_kafka_darwin-amd64.tar.gz
   - selector:
       os: darwin
       arch: arm64
     bin: ./kafka
-    uri: https://github.com/phankhanhpvk/trivy-plugin-output-to-kafka/releases/download/v1.1.0/trivy_output_plugin_kafka_darwin-arm64.tar.gz
+    uri: https://github.com/pvk689/trivy-plugin-output-to-kafka/releases/download/v1.1.0/trivy_output_plugin_kafka_darwin-arm64.tar.gz
