@@ -1,10 +1,1 @@
-
-go.work
-
-dist/
-docker-compose.yaml
-goreleaser.yaml
-Makefile
-
-dist/
-.goreleaser.yaml
+/dist/
